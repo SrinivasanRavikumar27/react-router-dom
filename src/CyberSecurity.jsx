@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import image1 from '/src/assets/cyber-security1.jpg';
 
 function CyberSecurity() {
 
@@ -11,7 +12,7 @@ function CyberSecurity() {
     <div className='card-deck row row-cols-1 row-cols-md-3' style={{padding : '0px 30px', }}>
 
     <div className='card'>
-    <img src="/src/assets/cyber-security1.jpg" className="card-img-top" style={height} alt="..."/>
+    <img src={image1} className="card-img-top" style={height} alt="..."/>
           <div class="card-body">
             <h5 class="card-title">Cyber Security</h5>
             <p class="card-text">Cybersecurity is the practice of protecting systems, networks, and programs from digital attacks.</p>
